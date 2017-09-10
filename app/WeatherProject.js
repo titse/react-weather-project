@@ -8,7 +8,11 @@ Author: Tiffany Tse
 import React from 'react';
 import { AppRegistry, StyleSheet, Text, View } from 'react-native';
 
-//include componets
+//include components
+import Forecast from "./Forecast.js";
+import OpenWeatherMap from "./utils/openWeatherApi";
+
+//create WeatherProject compoent
 var WeatherProject = class extend React.Component{
 	constructor(props) {
 		//pass props to parent
